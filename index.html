@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Gates</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+     /* Custom CSS */
+        body {
+            background-color: #343a40;
+            /* Dark background color */
+            color: white;
+        }
+
+        .jumbotron {
+            text-align: center;
+            background-color: black;
+            background-image: url('https://wallpapers.com/images/high/bill-gates-1920-x-1035-background-t41lc5ryxarxyq7m.webp');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            /* Text color for better visibility */
+            padding: 200px 0;
+        }
+
+        .navbar {
+            background-color: #343a40;
+        }
+
+        /* Styling for contact form */
+        .contact-form {
+            color: white;
+        }
+
+        /* Styling for cards */
+        .card {
+            background-color: #fff;
+            /* Background color for cards */
+            color: black;
+            /* Text color for cards */
+            margin-bottom: 20px;
+            height: 300px;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        /* Styling for card titles */
+        .card-title {
+            font-weight: bold;
+        }
+
+        /* Styling for social media icons */
+        .social-icons {
+            font-size: 24px;
+        }
+
+        /* Centering the award icon */
+        .award-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        /* Rotate and scale the card on hover */
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        /* Rotate the award icon on hover */
+        .card:hover .award-icon i {
+            animation: rotate 1s linear;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #contact .contact-form {
+            background-color: white;
+            /* Make the right side white */
+            padding: 20px;
+            border-radius: 5px;
+            /* Add rounded corners to the right side */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            color: black;
+            /* Add a subtle shadow to the right side */
+        }
+        @media screen and(max-width) {
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+            <a class="navbar-brand" href="#">Bill Gates</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#life">Life of Bill Gates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#achievements">Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-4">ONE OF THE GREATEST MINDS IN COMPUTER HISTORY</h1>
+                    <p class="lead">HIS LIFE, ACHIEVEMENTS, AND MORE.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About</h2>
+                    <p>Bill Gates is a renowned philanthropist and co-founder of Microsoft. He is known for his
+                        contributions to the world of technology and his efforts to improve global healthcare and
+                        education.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://insidethemindofacomputergenius.weebly.com/uploads/3/2/1/6/32167673/3603867.jpg?1406726851"
+                        alt="Bill Gates" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="life" class="py-5">
+        <div class="container">
+            <h2>Life of Bill Gates</h2>
+            <p>Bill Gates was born on October 28, 1955 in Seattle, Washington. Bill Gates was originally named William
+                Henry Gates. Bill has two sisters named Libby and Kristianne. When he was 13 years old he started to
+                have an interest in computers. When he was only 13, Bill Gates created a tic-tac-toe game that allowed
+                people to play against the computer. During his time in high school Bill Gates met Paul Allen, who soon
+                became one of his closest friends. They worked together on computer programs and software. When Bill
+                Gates took the SATs he scored a 1590 out of 1600, one of the best scores ever seen in history. He went
+                to college at Harvard University, a prestigious ivy-league school.</p>
+            <p>Originally, in college Gates was going to study law, but he spent so much of his time in the computer lab
+                that his major soon changed. Throughout college Gates and Allen kept in touch with each other. Both Bill
+                Gates and Paul Allen met in 1974 at Honeywell. While there they saw a min-computer, called the Altair
+                8800. Both were so intrigued by it that they called MITS and asked Ed Roberts if he wanted someone to
+                invent software to run the computer. They worked on it for two months and when they showed it to Ed
+                Roberts, it worked like a charm.</p>
+            <p>In 1975, Bill Gates and Paul Allen became partners and named themselves Micro-Soft, a mixture of software
+                and micro-computer. In 1978, when Bill Gates was only 23, he made himself the head of Microsoft. During
+                the years of 1978-1981, Microsoft grew from 25 employees to 128 employees, and the revenue of Microsoft
+                went from 4 million dollars to 16 million dollars. In 1985, Microsoft released Windows. By the age of
+                31, Bill Gates was a millionaire, and one year later he was a billionaire. Bill Gates is currently 58
+                years old and has three kids named Rory John Gates, Jennifer Katharine Gates, and Phoebe Adele Gates. He
+                also has a wife named Melinda Gates.</p>
+        </div>
+    </section>
+
+    <section id="achievements" class="">
+        <div class="container">
+            <h2 class="mb-4">Awards</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="award-icon">
+                                <i class="fas fa-award fa-3x d-block mx-auto mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Padma Bhushan</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Year: 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="award-icon">
+                                <i class="fas fa-award fa-3x d-block mx-auto mb-3"></i>
+                            </div>
+                            <h5 class="card-title">National Medal of Technology and Innovation</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Year: 1992</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="award-icon">
+                                <i class="fas fa-award fa-3x d-block mx-auto mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Presidential Medal of Freedom</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Year: 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="award-icon">
+                                <i class="fas fa-award fa-3x d-block mx-auto mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Bambi - Millennium Award</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Year: 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="award-icon">
+                                <i class="fas fa-award fa-3x d-block mx-auto mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Silver Buffalo Award</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Year: 2010</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="award-icon">
+                                <i class="fas fa-award fa-3x d-block mx-auto mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Silver Buffalo Award</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Year: 2010</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="mt-5">
+        <div class="container">
+            <h2 class="text-center">Get In Touch</h2>
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-md-5 p-5">
+                    <p>Fill out the form and our team will reach out to you within 1-2 business days.</p>
+                    <p><strong>Email:<br></strong> support@workik.com</p>
+                    <p><strong>Social:</strong></p>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled social-icons d-flex justify-content-between">
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Section - Contact Form -->
+                <div class="col-md-7 p-5">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row g-3">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
